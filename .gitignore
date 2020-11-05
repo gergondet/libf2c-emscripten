@@ -1,0 +1,5 @@
+arith.h
+libf2c.a
+signal1.h
+sysdep1.h
+*.o
