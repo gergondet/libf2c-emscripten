@@ -15,7 +15,7 @@
 .SUFFIXES: .c .o
 CC = emcc
 SHELL = /bin/sh
-CFLAGS = -O
+CFLAGS = -O2 -DNDEBUG -O
 PREFIX = ${EMSDK}/upstream/emscripten/system
 INCLUDEDIR = $(PREFIX)/include
 LIBDIR = $(PREFIX)/lib
